@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>responsive-flower</title>
-    <link rel="stylesheet" href="./src/output.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-yL/Y4yAaHmgV3nKa3AHbmhW3oE2FHZAB6Ycbb7EqgDfVtV+6b9TFlZzMiS89R13tCJ4dRCuPKK/F5cRJ04W7Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
@@ -27,15 +27,26 @@
             </div>
         </div> 
         <!-- banner -->
-         <div class="flex navbar">
-            <div>
+         <div class="flex navbar gap-10">
+            <div class="w-1/2">
             <p class="font-01">ALWAYS<span class="font-02"> FRESH <br/>FLOWERS</span></p>
             <p class="font-03">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
         </div>
-            <div class="">
-            <img src="./assets/hero-flower.png" alt="flower">
+            <div class="mt-auto ml-auto">
+            <img src="./assets/hero-flower.png" alt="flower" class="">
             </div>
         </div>
+        <!-- Plants Section -->
+         <section class="navbar justify-center">
+            <p class="flex justify-center font-01">Our <span class="font-02"> Plants</span></p>
+            <p class="flex justify-center font-03 plants-text">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <div>
+                <img src="./assets/sample-flower-image.png" alt="card-img">
+                <p>Lily Blossom</p>
+                <p><strong>20 USD</strong></p>
+                <button>Add to Cart</button>
+            </div>
+         </section>
     </header>
     <main></main>
     <footer></footer>

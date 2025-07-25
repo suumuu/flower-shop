@@ -1,6 +1,18 @@
-
+/*! tailwindcss v4.1.11 | MIT License | https://tailwindcss.com */
+.ms-auto {
+  margin-inline-start: auto;
+}
+.mt-auto {
+  margin-top: auto;
+}
+.ml-auto {
+  margin-left: auto;
+}
 .flex {
   display: flex;
+}
+.w-1\/2 {
+  width: calc(1/2 * 100%);
 }
 .items-center {
   align-items: center;
@@ -8,33 +20,14 @@
 .justify-between {
   justify-content: space-between;
 }
+.justify-center {
+  justify-content: center;
+}
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 .navbar {
-  margin: 20px 100px 50px 100px;
+  margin: 20px 100px;
 }
-
-.font-01{
-  font-family: Noto Serif;
-  font-size: 65px;
-  font-weight: bold;
-  color:black;
-}
-
-.font-02{
-  font-family: Noto Serif;
-  font-size: 65px;
-  font-weight: bold;
-  color:#E95A08;
-}
-
-.font-03{
-  font-family: Inter;
-  font-size: 22px;
-  font-weight: regular;
-  color:#737373;
-}
-
