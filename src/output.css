@@ -39,7 +39,7 @@
 }
 
 .plants-text{
-  margin-inline: 500px;
+  margin-inline: 200px;
   margin-bottom: 30px;
 }
 
@@ -83,4 +83,32 @@
   font-size: 50px;
   font-weight: bold;
   color:black;
+}
+
+.input-part{
+  padding: 8px 20px;
+  width:644px
+}
+
+.font-07{
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: bold;
+  color:white;
+}
+
+.footer-sec{
+  gap: 170px;
+}
+
+.trust-badge{
+  height:300px;
+  transform: translate(400px, -120px);
+}
+
+@media (max-width: 640px) {
+  .navbar {
+    margin: 20px 0px 80px 0px;
+  }
+
 }
