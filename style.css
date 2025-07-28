@@ -1,3 +1,7 @@
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
 
 .flex {
   display: flex;
@@ -85,9 +89,10 @@
   color:black;
 }
 
-.input-part{
+.input-part {
   padding: 8px 20px;
-  width:644px
+  width: 100%;
+  max-width: 644px;
 }
 
 .font-07{
@@ -108,7 +113,7 @@
 
 @media (max-width: 640px) {
   .navbar {
-    margin: 20px 0px 80px 0px;
+    margin: 20px 30px 80px 30px;
   }
 
 }
