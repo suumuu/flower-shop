@@ -92,7 +92,7 @@ html, body {
 .input-part {
   padding: 8px 20px;
   width: 100%;
-  max-width: 644px;
+  min-width: 644px;
 }
 
 .font-07{
